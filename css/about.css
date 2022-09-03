@@ -1,0 +1,52 @@
+.header{
+    width: 100%;
+    min-height: 170px;
+    background: deeppink;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.center1{
+    width: 100%;
+    min-height: 390px;
+    background: lightpink;
+    float: left;
+}
+
+.center2{
+    width: 100%;
+    min-height: 390px;
+    background: violet;
+    float: left;
+}
+
+.center3{
+    width: 100%;
+    min-height: 390px;
+    background: lightpink;
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    min-height: 170px;
+    background: deeppink;
+    float: left;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+
+    .noPadding{
+        padding: 0px;
+    }
+
+    .center2{
+        margin: 15px 0px;
+    }
+
+    .center1, .center2, .center3{
+        min-height: 150px;
+        background: limegreen;
+    }
+
+}
